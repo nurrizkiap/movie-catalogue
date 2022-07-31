@@ -31,7 +31,6 @@ describe('Searching movies', () => {
   beforeEach(() => {
     setMovieSearchContainer();
     constructPresenter();
-    console.log('process.env.API_KEY_TMDB', process.env.API_KEY_TMDB);
   });
 
   describe('When query is not empty', () => {
