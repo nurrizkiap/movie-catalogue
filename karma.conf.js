@@ -35,10 +35,10 @@ module.exports = function (config) {
       devtool: 'inline-source-map',
       mode: 'development',
       plugins: [
-        new Dotenv({
-          path: path.resolve(__dirname, '.env'),
-          systemvars: true,
-        }),
+        // new Dotenv({
+        //   path: path.resolve(__dirname, '.env'),
+        //   systemvars: true,
+        // }),
       ],
     },
 
